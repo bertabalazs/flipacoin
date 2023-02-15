@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="stats">
+        <p id="heads-count">Heads: 0</p>
+        <p id="tails-count">Tails: 0</p>
+      </div>
+      <div class="coin" id="coin">
+        <div class="heads">
+          <img src="/src/heads.svg" />
+        </div>
+        <div class="tails">
+          <img src="/src/tails.svg" />
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="flip-button">
+          Fli coin
+        </button>
+        <button id="reset-button">
+          Reset
+        </button>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
